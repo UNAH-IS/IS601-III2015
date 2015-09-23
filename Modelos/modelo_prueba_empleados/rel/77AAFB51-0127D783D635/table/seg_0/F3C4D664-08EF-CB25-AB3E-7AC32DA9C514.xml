@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3C4D664-08EF-CB25-AB3E-7AC32DA9C514" name="TBL_CARGOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-21 16:11:52 UTC</createdTime>
+<ownerDesignName>modelo_prueba_empleados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_cargo" id="C74C038D-9A87-881C-3950-4768B16070EB">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-21 16:12:48 UTC</createdTime>
+<ownerDesignName>modelo_prueba_empleados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_cargo" id="4BDC0FD5-6869-A426-1BAB-2E43F3C01A9C">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-21 16:12:48 UTC</createdTime>
+<ownerDesignName>modelo_prueba_empleados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D02F98A1-74A8-2EA9-0D3A-7C4D8E1E3C66" name="TBL_CARGOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-21 16:12:48 UTC</createdTime>
+<ownerDesignName>modelo_prueba_empleados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C74C038D-9A87-881C-3950-4768B16070EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="A0CFECDC-381B-72C8-33F9-EB5AD90BA35B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-21 16:09:00 UTC</createdTime>
+<ownerDesignName>modelo_prueba_empleados</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

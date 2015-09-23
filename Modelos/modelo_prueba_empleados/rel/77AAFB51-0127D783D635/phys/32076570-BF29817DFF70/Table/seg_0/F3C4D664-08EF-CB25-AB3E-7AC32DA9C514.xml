@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_CARGOS" directorySegmentName="seg_0" id="F3C4D664-08EF-CB25-AB3E-7AC32DA9C514">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-21 16:13:54 UTC</createdTime>
+<ownerDesignName>modelo_prueba_empleados</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nombre_cargo" id="4BDC0FD5-6869-A426-1BAB-2E43F3C01A9C">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-21 16:13:54 UTC</createdTime>
+<ownerDesignName>modelo_prueba_empleados</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="codigo_cargo" id="C74C038D-9A87-881C-3950-4768B16070EB">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-21 16:13:54 UTC</createdTime>
+<ownerDesignName>modelo_prueba_empleados</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_CARGOS_PK" id="D02F98A1-74A8-2EA9-0D3A-7C4D8E1E3C66">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-21 16:13:54 UTC</createdTime>
+<ownerDesignName>modelo_prueba_empleados</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0CC1C810-2D27-0535-2C2F-37C814389C1F" mainViewID="7F0687C0-7FCC-0F33-AB2F-045770E7DC3A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-21 16:08:59 UTC</createdTime>
+<ownerDesignName>modelo_prueba_empleados</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6378B68-068B-D223-3E20-16A96427108E" name="tbl_empleados">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-21 16:10:10 UTC</createdTime>
+<ownerDesignName>modelo_prueba_empleados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_empleado" id="EFE5240C-7924-5C47-8E66-E6BD7CC2C6B6">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-21 16:11:15 UTC</createdTime>
+<ownerDesignName>modelo_prueba_empleados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_empleado" id="9345B622-05F2-E716-D4AC-2FEDBCF3FB38">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-21 16:11:15 UTC</createdTime>
+<ownerDesignName>modelo_prueba_empleados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_cargo" id="13E74801-AE0D-B273-3CAE-22C0E03F3FAB">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-21 16:15:40 UTC</createdTime>
+<ownerDesignName>modelo_prueba_empleados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FA8737D-F8DE-F670-CE85-DD8855ADD083" referredColumn="C74C038D-9A87-881C-3950-4768B16070EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E18E42B-A5D7-167B-00D8-6D4592B9D1E8" name="TABLE_1_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-21 16:11:15 UTC</createdTime>
+<ownerDesignName>modelo_prueba_empleados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFE5240C-7924-5C47-8E66-E6BD7CC2C6B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="520ABB24-85A7-B14C-639A-DA3F64968E00" name="CODIGO_CARGO_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-21 16:15:40 UTC</createdTime>
+<ownerDesignName>modelo_prueba_empleados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13E74801-AE0D-B273-3CAE-22C0E03F3FAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

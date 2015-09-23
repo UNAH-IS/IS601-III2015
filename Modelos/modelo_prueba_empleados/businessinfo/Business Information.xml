@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="B1931A3E-7E42-D412-889A-51C17DFA4733">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-21 16:09:01 UTC</createdTime>
+<ownerDesignName>modelo_prueba_empleados</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>
