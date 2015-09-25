@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="FC70EBF0-E079-2C9F-A9CD-14A8132F883C" mainViewID="ED768529-595A-5A3A-E94F-F44F9F93B5C7">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-24 17:24:51 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

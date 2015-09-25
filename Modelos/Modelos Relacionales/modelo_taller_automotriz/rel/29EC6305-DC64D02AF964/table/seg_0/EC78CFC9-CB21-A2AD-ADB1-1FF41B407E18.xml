@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC78CFC9-CB21-A2AD-ADB1-1FF41B407E18" name="TBL_SUCURSALES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:00:16 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_SUCURSAL" id="DF68669D-5575-F751-F28E-95E63B886A1E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:02:07 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ADMINISTRADOR" id="6FFDADF5-5F1A-F03A-A9DB-E8199717D968">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:51:23 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F384EB4-6B7E-D000-E959-82B38C9A66AF" referredColumn="D3AB066A-DB46-8FBF-6382-5C2A77D8DCFB"/>
+</associations>
+</Column>
+<Column name="NOMBRE_SUCURSAL" id="A8710F98-29D5-5679-A820-904D7C41BC5C">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:02:07 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="C3099D56-E77B-FE4A-DA67-D4EA6CC25DD7">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:02:07 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="65501913-D333-CD1E-2689-E2BF034F141D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:02:07 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98E1D211-C33D-28E2-91AE-6782667DF826" name="TBL_SUCURSALES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:02:07 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF68669D-5575-F751-F28E-95E63B886A1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B57A4DEF-115A-FBFE-B2C0-4092A8284DA3" name="ADMINISTRADOR_UN">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:56:52 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FFDADF5-5F1A-F03A-A9DB-E8199717D968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07E72713-5175-D760-A875-25332E7CE585" name="SUCURSALES_ADMINISTRADORES_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:51:23 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FFDADF5-5F1A-F03A-A9DB-E8199717D968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

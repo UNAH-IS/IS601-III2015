@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo_taller_automotriz" id="30D0F985-CD6F-C557-DD7C-BB0FF7A6AEE4" version="3.5">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-24 17:24:51 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>30D0F985-CD6F-C557-DD7C-BB0FF7A6AEE4</designId>
+</OSDM_Design>

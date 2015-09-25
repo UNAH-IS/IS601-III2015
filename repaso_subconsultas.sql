@@ -22,11 +22,11 @@ WHERE ROWNUM = 1;
 
 --Identificar cuanto es el porcentaje de gastos en salarios por departamento
 SELECT DEPARTMENT_NAME, 
-      100 * round(SALARIO_DEPTO/
+      ROUND(100 * SALARIO_DEPTO /
       (
         SELECT SUM(SALARY) SALARIO_TOTAL
         FROM EMPLOYEES
-      ),2) AS SALARIO_TOTAL --Se puede utilizar una subconsulta como campo porque retorna una sola columna y un solo registro
+      )) AS PORCENTAJE --Se puede utilizar una subconsulta como campo porque retorna una sola columna y un solo registro
 FROM (
   SELECT DEPARTMENT_NAME, 
         SUM(SALARY) SALARIO_DEPTO
@@ -34,10 +34,13 @@ FROM (
   LEFT JOIN DEPARTMENTS B
   ON A.DEPARTMENT_ID = B.DEPARTMENT_ID
   GROUP BY DEPARTMENT_NAME
-  ORDER BY DEPARTMENT_NAME
 );
 
 --20308/691416
 --4400/691416 = 2.93%
-SELECT SUM(SALARY) SALARIO_TOTAL
-FROM EMPLOYEES;
+SELECT 5+5,A.*
+FROM EMPLOYEES A;
+
+--Una tabla con una columna y una fila
+SELECT 3+1+8+7+1+4+3+1+4+44+23+1 AS RESULTADO
+FROM DUAL;

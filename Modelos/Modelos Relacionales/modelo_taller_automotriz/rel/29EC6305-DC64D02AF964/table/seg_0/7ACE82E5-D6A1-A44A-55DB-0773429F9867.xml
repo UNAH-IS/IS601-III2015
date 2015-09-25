@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7ACE82E5-D6A1-A44A-55DB-0773429F9867" name="TBL_VEHICULOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-24 17:29:46 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO_PLACA" id="B312B800-0EB9-2056-93CE-B8447EA91E84">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-24 17:34:51 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHASIS" id="28CDB140-5882-937F-F4C7-835AD901F234">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-24 17:34:51 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_CLIENTE" id="E2FA29AB-7E10-04B2-BB07-150CE2877D95">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-24 17:42:25 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB752B2D-DB86-460E-208E-665C8802A647" referredColumn="BADAC447-2960-29C8-F030-193D4554A65A"/>
+</associations>
+</Column>
+<Column name="CODIGO_COLOR" id="1F961ED7-A703-FD57-AB38-21A3A7104876">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:12:00 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="068EF9F3-00E0-33D5-9A6A-A82F54E096D7" referredColumn="39581466-3263-D219-ACAA-8AFCD88CCC39"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_COMBUSTIBLE" id="317573FF-E576-0175-2327-02F6A7A30A2B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:14:09 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3A1CA82-E968-D80B-4021-2FD8B8BCF754" referredColumn="5AE5B6D1-DB0B-95AA-C413-685DD9E750A0"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_VEHICULO" id="84D3FB4D-BD73-60DE-82A3-66DB9B236B5D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:17:23 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6028CA17-A7B8-740A-359C-77284A976F89" referredColumn="33EF22E6-D3A4-CA31-0FC6-23A11AE41CAC"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_TRANSMISION" id="F155FA9C-2D59-E31E-CFBF-ADD96A7B2AD9">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:18:34 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84A24F1F-DF3C-ED3D-960C-8FAD0B620555" referredColumn="0EF5C88C-E471-EC4D-06D2-D754FBADD463"/>
+</associations>
+</Column>
+<Column name="CODIGO_MODELO" id="A329745E-1A4B-0D99-BCCB-4D68371E3702">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:20:43 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AB8D8A2-469C-F2D7-3071-828BE32B72A0" referredColumn="A4C57433-68A2-1474-B128-A82040079721"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35BD138C-F0FD-04FD-593A-A1AB3AA1FFAC" name="TBL_VEHICULOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-24 17:34:51 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B312B800-0EB9-2056-93CE-B8447EA91E84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80EC44E7-A8A5-C279-8172-EC961D62B91E" name="TBL_V_TBL_C_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-24 17:42:25 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2FA29AB-7E10-04B2-BB07-150CE2877D95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF7BF160-DDCB-D56A-B15A-1E6EA80CFCE2" name="TBL_VEHICULOS_TBL_COLOR_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:12:00 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F961ED7-A703-FD57-AB38-21A3A7104876"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="035DA6B6-A55B-DF73-7CB2-407C39FD0F37" name="VEHICULOS_TIPOS_COMBUSTIBLE_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:14:09 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="317573FF-E576-0175-2327-02F6A7A30A2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1DE292A-5A64-53CD-DAAC-324406A1D16C" name="VEHICULOS_TIPOS_VEHICULO_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:17:23 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84D3FB4D-BD73-60DE-82A3-66DB9B236B5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBD7E75E-BB24-6721-C428-F64A5B391AA5" name="VEHICULOS_TIPOS_TRANSMISION_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:18:34 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F155FA9C-2D59-E31E-CFBF-ADD96A7B2AD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D6BE504-CA53-070F-FCEF-427493F0CD11" name="TBL_VEHICULOS_TBL_MODELOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:20:43 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A329745E-1A4B-0D99-BCCB-4D68371E3702"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

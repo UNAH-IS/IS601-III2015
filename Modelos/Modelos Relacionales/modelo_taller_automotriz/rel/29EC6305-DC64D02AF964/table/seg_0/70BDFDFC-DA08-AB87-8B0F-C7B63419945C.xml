@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70BDFDFC-DA08-AB87-8B0F-C7B63419945C" name="TBL_COLOR">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 16:52:23 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_COLOR" id="39581466-3263-D219-ACAA-8AFCD88CCC39">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 16:52:58 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_COLOR" id="25B013F3-1510-E5B6-7866-FDB85D17375A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 16:52:58 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EFC7CEBB-2134-15AC-0B28-DC305215937A" name="TBL_COLOR_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 16:52:58 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39581466-3263-D219-ACAA-8AFCD88CCC39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

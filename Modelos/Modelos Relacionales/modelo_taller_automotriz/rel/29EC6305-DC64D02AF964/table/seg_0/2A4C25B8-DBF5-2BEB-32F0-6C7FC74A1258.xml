@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A4C25B8-DBF5-2BEB-32F0-6C7FC74A1258" name="TBL_PROVEEDORES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:05:31 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PROVEEDOR" id="FE781591-E936-B8A0-0CDD-E10646A93650">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:06:30 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PROVEEDOR" id="738AF79A-6ECF-6597-94B7-A6C62400C7B9">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:06:30 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="7A861A77-29F4-A95A-0712-72567F720AFD">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:06:30 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="4499535C-A0D4-1605-8BA7-DA66580C20D2">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:06:30 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A2C1C9A-B28D-7E76-52A2-830CDEC30EBC" name="TBL_PROVEEDORES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-25 17:06:30 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE781591-E936-B8A0-0CDD-E10646A93650"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
