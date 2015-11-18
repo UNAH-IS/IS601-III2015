@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_TRIPULACION" directorySegmentName="seg_0" id="F1B9E6B4-539A-8119-917C-5A5F33CAD0AC">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 15:06:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<schemaObject>736E312B-6B9F-9999-CD1F-691C10BD74F0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODIGO_CARGO" id="164D0013-F2D2-A1D1-A764-AD3FDF51DA95">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 15:06:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_TRIPULANTE_SUPERIOR" id="96AEDFC7-231B-87D1-B69D-4F921859D1DE">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 15:06:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="CC75DD52-AEA8-BC95-2CA2-AAE58C205396">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 15:06:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_TRIPULANTE" id="E56961EA-ED44-6CB9-280A-16CD77EA6CF6">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 15:06:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TBL_TRIP_TBL_TRIP_FK" id="47643F78-A0EB-EB15-B187-8D7DAC97DE39">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 15:06:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TBL_TRIP_TBL_CARG_FK" id="8C068B5C-3CD0-980E-A7EF-FC621B16DC09">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 15:06:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_TRIPULACION_PK" id="3D365F66-CBA1-BAC2-8550-B1D2C3551535">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 15:06:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

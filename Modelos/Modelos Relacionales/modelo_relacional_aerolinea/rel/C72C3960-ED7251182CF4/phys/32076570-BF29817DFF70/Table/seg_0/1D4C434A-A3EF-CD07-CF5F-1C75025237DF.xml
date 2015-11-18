@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_PUNTOS_X_RUTAS" directorySegmentName="seg_0" id="1D4C434A-A3EF-CD07-CF5F-1C75025237DF">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 15:06:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<schemaObject>736E312B-6B9F-9999-CD1F-691C10BD74F0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODIGO_PUNTO" id="01B6A31C-40DD-0D20-8ECE-1F367ED14612">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 15:06:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_RUTA" id="AAA8C821-D11A-EE85-B2AD-439845CFE617">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 15:06:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDEN_RUTA" id="E580C423-5F1E-5A1C-069D-5023A0B806B6">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 15:06:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TBL_P_X_R_TBL_P_E_FK" id="ECC6F1B6-7362-4E60-B02F-1E19CB1E9DFC">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 15:06:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TBL_P_X_R_TBL_R_FK" id="F8BF7915-3D88-1222-72A4-AFF0D820AE48">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 15:06:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_PUNTOS_X_RUTAS_PK" id="516B19D2-7957-81D9-9AD3-90B49CE6F5C8">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 15:06:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

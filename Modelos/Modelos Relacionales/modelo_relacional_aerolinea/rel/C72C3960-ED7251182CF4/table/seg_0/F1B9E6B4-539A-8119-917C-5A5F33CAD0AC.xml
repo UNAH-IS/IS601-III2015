@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1B9E6B4-539A-8119-917C-5A5F33CAD0AC" name="TBL_TRIPULACION">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 02:47:45 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<schemaObject>736E312B-6B9F-9999-CD1F-691C10BD74F0</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TRIPULANTE" id="E56961EA-ED44-6CB9-280A-16CD77EA6CF6">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:04:08 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="CC75DD52-AEA8-BC95-2CA2-AAE58C205396">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:04:08 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TRIPULANTE_SUPERIOR" id="96AEDFC7-231B-87D1-B69D-4F921859D1DE">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-10 17:30:16 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA320D4B-1699-C0B3-942C-ACD34CD7FAF6" referredColumn="E56961EA-ED44-6CB9-280A-16CD77EA6CF6"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARGO" id="164D0013-F2D2-A1D1-A764-AD3FDF51DA95">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-10 17:34:37 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A668EEC-918A-622E-DEAA-A05B2DA92E54" referredColumn="775F7963-7B16-CC26-78CC-541FE3733F0B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D365F66-CBA1-BAC2-8550-B1D2C3551535" name="TBL_TRIPULACION_PK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:04:08 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E56961EA-ED44-6CB9-280A-16CD77EA6CF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47643F78-A0EB-EB15-B187-8D7DAC97DE39" name="TBL_TRIP_TBL_TRIP_FK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-10 17:30:16 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96AEDFC7-231B-87D1-B69D-4F921859D1DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C068B5C-3CD0-980E-A7EF-FC621B16DC09" name="TBL_TRIP_TBL_CARG_FK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-10 17:34:37 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="164D0013-F2D2-A1D1-A764-AD3FDF51DA95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72668F19-FB96-7126-0197-933192E06122" name="TBL_CARGOS_TRIPULANTES">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:23:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<schemaObject>736E312B-6B9F-9999-CD1F-691C10BD74F0</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CARGO" id="775F7963-7B16-CC26-78CC-541FE3733F0B">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:24:37 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CARGO" id="D1ADF55F-6D8A-054A-CB34-59EB47543B15">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:24:37 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8CA51279-3014-2FEF-15DE-8EDB47E585B4" name="TBL_CARGOS_TRIP_PK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:24:37 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="775F7963-7B16-CC26-78CC-541FE3733F0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

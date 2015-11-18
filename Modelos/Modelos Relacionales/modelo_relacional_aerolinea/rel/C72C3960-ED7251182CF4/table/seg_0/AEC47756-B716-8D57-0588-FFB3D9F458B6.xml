@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEC47756-B716-8D57-0588-FFB3D9F458B6" name="TBL_CLASES_SOCIALES">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 02:50:08 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<schemaObject>736E312B-6B9F-9999-CD1F-691C10BD74F0</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CLASE" id="340D5770-7A88-9DBB-160B-0DDAF31AB6EE">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:14:21 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CLASE" id="257005B5-1398-BE0D-FAC5-6007A05C9B10">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:14:21 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF4E838E-1D31-D4B1-B60B-25FBB5B9A8AC" name="TBL_CLASES_SOCIALES_PK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:18:29 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="340D5770-7A88-9DBB-160B-0DDAF31AB6EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

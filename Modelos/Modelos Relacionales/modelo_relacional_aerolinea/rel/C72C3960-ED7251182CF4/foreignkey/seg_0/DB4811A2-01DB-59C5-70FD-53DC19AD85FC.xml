@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DB4811A2-01DB-59C5-70FD-53DC19AD85FC" containerWithKeyObject="487733F9-6C0F-BF74-253E-61918CA32861" localFKIndex="6C7CBFC8-2797-98E3-0492-074D4D793D53" name="TBL_FD_TBL_P_FK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 17:17:26 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>441AEE12-D28F-AE38-B96B-B822B0DA5381</referredTableID>
+<keyObject>A90696F8-32E2-37C7-F81A-FCA173B511ED</keyObject>
+<referredKeyID>A90696F8-32E2-37C7-F81A-FCA173B511ED</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

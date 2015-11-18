@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_TIPOS_ASIENTOS" directorySegmentName="seg_0" id="782DD6A3-60B5-5C72-22E6-7B8B2A2F8AF1">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 15:06:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<schemaObject>736E312B-6B9F-9999-CD1F-691C10BD74F0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TIPO_ASIENTO" id="79B2F976-7662-E81A-8355-7E5567E0986B">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 15:06:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_TIPO_ASIENTO" id="D54E1BB2-9808-0EFC-2F09-D72420C0F2F3">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 15:06:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_TIPOS_ASIENTOS_PK" id="56BF5986-38E9-BD05-CDFC-0DF890726C98">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 15:06:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

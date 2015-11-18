@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB3F8F4E-070E-B804-E1B7-7AF07762E041" name="TBL_PUNTO_ESCALA">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 02:48:26 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<schemaObject>736E312B-6B9F-9999-CD1F-691C10BD74F0</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PUNTO" id="0EA7CFEF-9E5A-BA90-2472-980866A20669">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:05:00 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PUNTO" id="E36950AB-EBD9-B9A1-0BC3-B9F8952F3CAE">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:05:00 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="A7D6DCCD-6DA6-C860-6B55-A2E9B0615F0D">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:05:39 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="206DC730-1711-E650-0C46-F4373282B149">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:05:39 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC39B853-6E40-617F-C608-8C67334188F1" name="TBL_PUNTO_ESCALA_PK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:05:00 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EA7CFEF-9E5A-BA90-2472-980866A20669"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

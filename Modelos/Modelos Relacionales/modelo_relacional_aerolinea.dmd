@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo_relacional_aerolinea" id="62951522-0A91-312C-C6E9-34FA86C74B76" version="3.5">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 02:46:01 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>62951522-0A91-312C-C6E9-34FA86C74B76</designId>
+</OSDM_Design>

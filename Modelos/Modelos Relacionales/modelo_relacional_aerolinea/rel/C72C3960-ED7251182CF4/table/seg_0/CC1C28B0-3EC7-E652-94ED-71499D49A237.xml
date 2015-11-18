@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC1C28B0-3EC7-E652-94ED-71499D49A237" name="TBL_TRIPULACION_X_VUELOS">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 17:44:55 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<schemaObject>736E312B-6B9F-9999-CD1F-691C10BD74F0</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_VUELO" id="1E15E8E2-C4C2-5987-6361-8DAC3869B7D8">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 17:45:48 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EE5E57F-87D8-8EC6-1499-BFBF4A9E4335" referredColumn="25AC125B-0281-B2AE-7CED-833219D3AA07"/>
+</associations>
+</Column>
+<Column name="CODIGO_TRIPULANTE" id="999FD839-5497-A5D5-F802-86352562F9AD">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 17:46:02 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1EB3CED-2AFF-C421-9861-2EA098DDC3CF" referredColumn="E56961EA-ED44-6CB9-280A-16CD77EA6CF6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A62F0F42-72F4-589F-8B41-3F717B295308" name="TBL_TRIPULACION_X_VUELOS_PK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 17:48:19 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E15E8E2-C4C2-5987-6361-8DAC3869B7D8"/>
+<colUsage columnID="999FD839-5497-A5D5-F802-86352562F9AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E290AA3-7891-B08C-9657-7A6CE59BDFB7" name="TBL_TRIP_X_V_TBL_V_FK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 17:45:48 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E15E8E2-C4C2-5987-6361-8DAC3869B7D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B44A6810-8938-D946-9ABF-7E2CF49774E2" name="TBL_TRIP_X_V_TBL_TRIP_FK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 17:46:02 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="999FD839-5497-A5D5-F802-86352562F9AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

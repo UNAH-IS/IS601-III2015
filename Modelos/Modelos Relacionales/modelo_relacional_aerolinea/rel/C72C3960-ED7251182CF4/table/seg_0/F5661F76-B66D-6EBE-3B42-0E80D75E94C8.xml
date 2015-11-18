@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5661F76-B66D-6EBE-3B42-0E80D75E94C8" name="TBL_FACTURAS">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-10 17:39:36 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<schemaObject>736E312B-6B9F-9999-CD1F-691C10BD74F0</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_FACTURA" id="D11A72D1-04F2-B9FC-3C5E-794D710BF319">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-10 17:41:19 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COSTO_TOTAL" id="ED760278-4298-4642-0CA0-7DCBC2B8CBDA">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-10 17:42:15 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL_IMPUESTOS" id="0A18DF24-C2CC-C627-9A8A-D5AF463F57C1">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-10 17:42:15 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="256A7639-824A-6513-2563-B58E0DCB3FC6">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-10 17:44:17 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACTURADO" id="17BA6DB4-52FE-B690-3FFA-307AA930B824">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-10 17:44:17 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35B2618F-A916-7B51-FE08-B482BC3F000D" name="TBL_FACTURAS_TICKETS_PK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-10 17:41:19 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D11A72D1-04F2-B9FC-3C5E-794D710BF319"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

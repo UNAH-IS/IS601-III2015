@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="782DD6A3-60B5-5C72-22E6-7B8B2A2F8AF1" name="TBL_TIPOS_ASIENTOS">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:25:46 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<schemaObject>736E312B-6B9F-9999-CD1F-691C10BD74F0</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_ASIENTO" id="D54E1BB2-9808-0EFC-2F09-D72420C0F2F3">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:26:25 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_ASIENTO" id="79B2F976-7662-E81A-8355-7E5567E0986B">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:26:25 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56BF5986-38E9-BD05-CDFC-0DF890726C98" name="TBL_TIPOS_ASIENTOS_PK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:28:34 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D54E1BB2-9808-0EFC-2F09-D72420C0F2F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

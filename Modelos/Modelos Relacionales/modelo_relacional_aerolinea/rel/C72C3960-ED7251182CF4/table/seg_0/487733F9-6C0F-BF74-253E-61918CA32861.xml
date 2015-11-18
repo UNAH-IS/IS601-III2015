@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="487733F9-6C0F-BF74-253E-61918CA32861" name="TBL_FACTURA_DETALLE">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 17:12:42 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<schemaObject>736E312B-6B9F-9999-CD1F-691C10BD74F0</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_FACTURA" id="7FA08CFC-58BE-9F55-A387-F37D7C3CD918">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 17:16:23 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="347B5FB6-970B-D622-0D33-2367F6E0F2BA" referredColumn="D11A72D1-04F2-B9FC-3C5E-794D710BF319"/>
+</associations>
+</Column>
+<Column name="CODIGO_VUELO" id="ABE25914-6728-688A-9BB6-D4FA0673FFDC">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 17:17:03 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92B7D002-C79A-0FF4-E1E6-E86509354C5E" referredColumn="25AC125B-0281-B2AE-7CED-833219D3AA07"/>
+</associations>
+</Column>
+<Column name="CODIGO_CLASE" id="87721239-6B66-FF67-E283-8AF0D9609003">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 17:17:19 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A1000E6-426E-1264-6DE5-0E322B738CE3" referredColumn="340D5770-7A88-9DBB-160B-0DDAF31AB6EE"/>
+</associations>
+</Column>
+<Column name="CODIGO_PASAJERO" id="0F099250-C290-A342-49FB-DC4A5E15E36A">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 17:17:26 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB4811A2-01DB-59C5-70FD-53DC19AD85FC" referredColumn="61DA9C76-090F-E29A-33C6-DE9F99A59925"/>
+</associations>
+</Column>
+<Column name="CODIGO_ASIENTO" id="950EFC10-B3E7-6E4E-DB3F-8782190AE63D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-07-29 15:32:11 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DAF0201-0A4C-5A6B-DDC1-F0E15DA6941D" referredColumn="3C4E0DE3-0193-7812-76AF-71DBA0AD4966"/>
+</associations>
+</Column>
+<Column name="TICKET" id="3E957A03-7845-7BDD-31CA-9F7EEDF69143">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 17:19:28 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COSTO_TICKET" id="DD45BC4B-83A3-33D9-6D5F-CA2E4472E905">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 17:19:46 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCUENTO" id="A23EC0A7-0909-6E45-E92C-7F4779CA549E">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 17:20:36 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="804867E4-9174-1EB4-EE72-BC656C96388F" name="TBL_FACTURA_DETALLE_PK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 17:21:20 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FA08CFC-58BE-9F55-A387-F37D7C3CD918"/>
+<colUsage columnID="ABE25914-6728-688A-9BB6-D4FA0673FFDC"/>
+<colUsage columnID="87721239-6B66-FF67-E283-8AF0D9609003"/>
+<colUsage columnID="0F099250-C290-A342-49FB-DC4A5E15E36A"/>
+<colUsage columnID="950EFC10-B3E7-6E4E-DB3F-8782190AE63D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49BFAF5F-AD84-C52A-9255-DD9F74BB284E" name="TBL_FD_TBL_F_FK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 17:16:23 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FA08CFC-58BE-9F55-A387-F37D7C3CD918"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25D1E1FA-7C87-5396-D385-37227A999E34" name="TBL_FD_TBL_V_FK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 17:17:03 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABE25914-6728-688A-9BB6-D4FA0673FFDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="662975F3-2AF5-1C0C-0997-312638D6221E" name="TBL_FD_TBL_CS_FK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 17:17:19 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87721239-6B66-FF67-E283-8AF0D9609003"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C7CBFC8-2797-98E3-0492-074D4D793D53" name="TBL_FD_TBL_P_FK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 17:17:26 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F099250-C290-A342-49FB-DC4A5E15E36A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81FBA74D-7559-D499-C653-BAF080E3B4C5" name="TBL_F_DETALLE_TBL_ASIE_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-07-29 15:32:11 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="950EFC10-B3E7-6E4E-DB3F-8782190AE63D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

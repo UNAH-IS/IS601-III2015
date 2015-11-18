@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEEF94DC-1633-431F-AE2C-86D87367BF5E" name="TBL_MARCAS">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:21:23 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<schemaObject>736E312B-6B9F-9999-CD1F-691C10BD74F0</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MARCA" id="E803B95A-781F-3E99-DE7A-BC6973D94528">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:22:14 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_MARCA" id="22C6626A-BC37-F824-BCD8-744381287B0B">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:22:14 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52C46817-132E-1C99-F97B-4C66054A83B4" name="TBL_MARCAS_PK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:22:14 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E803B95A-781F-3E99-DE7A-BC6973D94528"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

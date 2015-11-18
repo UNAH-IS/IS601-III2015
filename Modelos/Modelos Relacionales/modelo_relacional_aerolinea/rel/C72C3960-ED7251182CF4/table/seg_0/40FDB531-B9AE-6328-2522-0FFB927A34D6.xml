@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40FDB531-B9AE-6328-2522-0FFB927A34D6" name="TBL_RUTAS">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 02:48:52 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<schemaObject>736E312B-6B9F-9999-CD1F-691C10BD74F0</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_RUTA" id="41D5C7DF-53F6-174C-824F-5D884CF4AC1F">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:18:57 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALIAS_RUTA" id="5DCA01F4-48E1-CCFC-3C5C-2F46BBF27499">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:18:57 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIEMPO_PROMEDIO_MINUTOS" id="91F1F361-9AFC-F403-0287-8C140A942478">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:20:16 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7659138A-5104-32F0-7E84-5945F94F8BDA" name="TBL_RUTAS_PK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:18:57 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41D5C7DF-53F6-174C-824F-5D884CF4AC1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

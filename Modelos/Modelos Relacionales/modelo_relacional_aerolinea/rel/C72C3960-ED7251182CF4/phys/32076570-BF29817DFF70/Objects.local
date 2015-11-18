@@ -1,0 +1,25 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="TSpace" objectID="USERS" name="USERS" seqName="seg_0"/>
+   <object objectType="User" objectID="51E05D53-75E6-E120-F17B-167228B45225" name="FACTURACION" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="062A3C77-F87D-E998-7C7E-190FA637A29A" name="TBL_MODELOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="1D4C434A-A3EF-CD07-CF5F-1C75025237DF" name="TBL_PUNTOS_X_RUTAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="208C152E-531B-A6D4-5E0E-16D4D9975AC1" name="TBL_VUELOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="40FDB531-B9AE-6328-2522-0FFB927A34D6" name="TBL_RUTAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="441AEE12-D28F-AE38-B96B-B822B0DA5381" name="TBL_PASAJEROS" seqName="seg_0"/>
+   <object objectType="Table" objectID="487733F9-6C0F-BF74-253E-61918CA32861" name="TBL_FACTURA_DETALLE" seqName="seg_0"/>
+   <object objectType="Table" objectID="72668F19-FB96-7126-0197-933192E06122" name="TBL_CARGOS_TRIPULANTES" seqName="seg_0"/>
+   <object objectType="Table" objectID="782DD6A3-60B5-5C72-22E6-7B8B2A2F8AF1" name="TBL_TIPOS_ASIENTOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="AEC47756-B716-8D57-0588-FFB3D9F458B6" name="TBL_CLASES_SOCIALES" seqName="seg_0"/>
+   <object objectType="Table" objectID="CB3F8F4E-070E-B804-E1B7-7AF07762E041" name="TBL_PUNTO_ESCALA" seqName="seg_0"/>
+   <object objectType="Table" objectID="CC1C28B0-3EC7-E652-94ED-71499D49A237" name="TBL_TRIPULACION_X_VUELOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="DEEF94DC-1633-431F-AE2C-86D87367BF5E" name="TBL_MARCAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="EBE76343-97A1-18D8-2747-86CB4B235E67" name="TBL_ASIENTOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="F1B9E6B4-539A-8119-917C-5A5F33CAD0AC" name="TBL_TRIPULACION" seqName="seg_0"/>
+   <object objectType="Table" objectID="F3146438-0AFE-A2C3-99EA-C91E61523C38" name="TBL_AVIONES" seqName="seg_0"/>
+   <object objectType="Table" objectID="F5661F76-B66D-6EBE-3B42-0E80D75E94C8" name="TBL_FACTURAS" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

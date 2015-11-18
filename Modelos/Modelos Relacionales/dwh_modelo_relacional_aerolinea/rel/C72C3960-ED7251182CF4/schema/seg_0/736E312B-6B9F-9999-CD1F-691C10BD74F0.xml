@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="AEROLINEA" directorySegmentName="seg_0" id="736E312B-6B9F-9999-CD1F-691C10BD74F0">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-11 17:25:06 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+</SchemaObject>

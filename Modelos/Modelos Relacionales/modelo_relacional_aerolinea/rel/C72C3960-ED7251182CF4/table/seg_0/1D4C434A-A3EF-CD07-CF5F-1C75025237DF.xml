@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D4C434A-A3EF-CD07-CF5F-1C75025237DF" name="TBL_PUNTOS_X_RUTAS">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 17:54:20 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<schemaObject>736E312B-6B9F-9999-CD1F-691C10BD74F0</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_RUTA" id="AAA8C821-D11A-EE85-B2AD-439845CFE617">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 17:54:49 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7CEF970-B799-9865-4FDC-875D344DA5D5" referredColumn="41D5C7DF-53F6-174C-824F-5D884CF4AC1F"/>
+</associations>
+</Column>
+<Column name="CODIGO_PUNTO" id="01B6A31C-40DD-0D20-8ECE-1F367ED14612">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 17:54:56 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03680ACE-FB3D-425E-553D-A1B5555CB897" referredColumn="0EA7CFEF-9E5A-BA90-2472-980866A20669"/>
+</associations>
+</Column>
+<Column name="ORDEN_RUTA" id="E580C423-5F1E-5A1C-069D-5023A0B806B6">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 17:57:09 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="516B19D2-7957-81D9-9AD3-90B49CE6F5C8" name="TBL_PUNTOS_X_RUTAS_PK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-10 17:17:01 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAA8C821-D11A-EE85-B2AD-439845CFE617"/>
+<colUsage columnID="01B6A31C-40DD-0D20-8ECE-1F367ED14612"/>
+<colUsage columnID="E580C423-5F1E-5A1C-069D-5023A0B806B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8BF7915-3D88-1222-72A4-AFF0D820AE48" name="TBL_P_X_R_TBL_R_FK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 17:54:49 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAA8C821-D11A-EE85-B2AD-439845CFE617"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECC6F1B6-7362-4E60-B02F-1E19CB1E9DFC" name="TBL_P_X_R_TBL_P_E_FK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 17:54:56 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01B6A31C-40DD-0D20-8ECE-1F367ED14612"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

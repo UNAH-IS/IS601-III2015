@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F5419076-54B1-EC87-8908-F13960A48D00" mainViewID="0BC2A332-1A5C-C122-21BC-A98F5639EBB8">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 02:46:01 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

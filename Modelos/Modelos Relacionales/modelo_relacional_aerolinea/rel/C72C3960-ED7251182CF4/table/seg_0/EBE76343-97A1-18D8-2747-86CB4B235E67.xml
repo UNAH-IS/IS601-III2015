@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EBE76343-97A1-18D8-2747-86CB4B235E67" name="TBL_ASIENTOS">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 02:51:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<schemaObject>736E312B-6B9F-9999-CD1F-691C10BD74F0</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ASIENTO" id="3C4E0DE3-0193-7812-76AF-71DBA0AD4966">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:16:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALIAS_ASIENTO" id="78211475-D6E1-B7A1-93B1-585BD0C80029">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:16:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_AVION" id="0FEAA138-8C54-A7A0-7EE0-087F445E56B9">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 17:37:48 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8F1122F-54E3-A2A7-CBC4-4F55177F2DB9" referredColumn="E9C7627D-8D09-9A11-7AF3-7C490D6A0C1A"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_ASIENTO" id="D3B58C49-FDCE-3434-0B4A-B7696815570B">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 17:38:32 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDF043E7-A99B-4FB1-FA0F-EFA8B5689BA7" referredColumn="D54E1BB2-9808-0EFC-2F09-D72420C0F2F3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50E4A880-A0CC-3BE1-B027-9B37EC2E8D72" name="TBL_ASIENTOS_PK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 03:16:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C4E0DE3-0193-7812-76AF-71DBA0AD4966"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="957A6DB0-B2F5-8EE6-7BF4-3806E6007803" name="TBL_ASIE_TBL_AVIONES_FK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 17:37:48 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FEAA138-8C54-A7A0-7EE0-087F445E56B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBDC106E-7CB1-9CBB-4EDE-BB0240771A6D" name="TBL_ASIE_TBL_TP_ASI_FK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-09 17:38:32 UTC</createdTime>
+<ownerDesignName>modelo_relacional_aerolinea</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3B58C49-FDCE-3434-0B4A-B7696815570B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
