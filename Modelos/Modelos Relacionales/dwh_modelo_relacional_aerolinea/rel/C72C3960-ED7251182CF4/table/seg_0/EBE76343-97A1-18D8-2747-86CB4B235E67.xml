@@ -44,11 +44,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A8F1122F-54E3-A2A7-CBC4-4F55177F2DB9" referredColumn="E9C7627D-8D09-9A11-7AF3-7C490D6A0C1A"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -61,16 +57,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3C4E0DE3-0193-7812-76AF-71DBA0AD4966"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="957A6DB0-B2F5-8EE6-7BF4-3806E6007803" name="TBL_ASIE_TBL_AVIONES_FK">
-<createdBy>Konqueror</createdBy>
-<createdTime>2015-06-09 17:37:48 UTC</createdTime>
-<ownerDesignName>dwh_modelo_relacional_aerolinea</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="0FEAA138-8C54-A7A0-7EE0-087F445E56B9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

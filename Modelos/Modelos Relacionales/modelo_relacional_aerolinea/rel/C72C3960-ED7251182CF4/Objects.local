@@ -1,37 +1,37 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
    <object objectType="SchemaObject" objectID="736E312B-6B9F-9999-CD1F-691C10BD74F0" name="AEROLINEA" seqName="seg_0"/>
-   <object objectType="Table" objectID="EBE76343-97A1-18D8-2747-86CB4B235E67" name="TBL_ASIENTOS" seqName="seg_0"/>
-   <object objectType="Table" objectID="F3146438-0AFE-A2C3-99EA-C91E61523C38" name="TBL_AVIONES" seqName="seg_0"/>
-   <object objectType="Table" objectID="72668F19-FB96-7126-0197-933192E06122" name="TBL_CARGOS_TRIPULANTES" seqName="seg_0"/>
-   <object objectType="Table" objectID="AEC47756-B716-8D57-0588-FFB3D9F458B6" name="TBL_CLASES_SOCIALES" seqName="seg_0"/>
-   <object objectType="Table" objectID="F5661F76-B66D-6EBE-3B42-0E80D75E94C8" name="TBL_FACTURAS" seqName="seg_0"/>
-   <object objectType="Table" objectID="487733F9-6C0F-BF74-253E-61918CA32861" name="TBL_FACTURA_DETALLE" seqName="seg_0"/>
-   <object objectType="Table" objectID="DEEF94DC-1633-431F-AE2C-86D87367BF5E" name="TBL_MARCAS" seqName="seg_0"/>
    <object objectType="Table" objectID="062A3C77-F87D-E998-7C7E-190FA637A29A" name="TBL_MODELOS" seqName="seg_0"/>
-   <object objectType="Table" objectID="441AEE12-D28F-AE38-B96B-B822B0DA5381" name="TBL_PASAJEROS" seqName="seg_0"/>
    <object objectType="Table" objectID="1D4C434A-A3EF-CD07-CF5F-1C75025237DF" name="TBL_PUNTOS_X_RUTAS" seqName="seg_0"/>
-   <object objectType="Table" objectID="CB3F8F4E-070E-B804-E1B7-7AF07762E041" name="TBL_PUNTO_ESCALA" seqName="seg_0"/>
-   <object objectType="Table" objectID="40FDB531-B9AE-6328-2522-0FFB927A34D6" name="TBL_RUTAS" seqName="seg_0"/>
-   <object objectType="Table" objectID="782DD6A3-60B5-5C72-22E6-7B8B2A2F8AF1" name="TBL_TIPOS_ASIENTOS" seqName="seg_0"/>
-   <object objectType="Table" objectID="F1B9E6B4-539A-8119-917C-5A5F33CAD0AC" name="TBL_TRIPULACION" seqName="seg_0"/>
-   <object objectType="Table" objectID="CC1C28B0-3EC7-E652-94ED-71499D49A237" name="TBL_TRIPULACION_X_VUELOS" seqName="seg_0"/>
    <object objectType="Table" objectID="208C152E-531B-A6D4-5E0E-16D4D9975AC1" name="TBL_VUELOS" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="A8F1122F-54E3-A2A7-CBC4-4F55177F2DB9" name="TBL_ASIE_TBL_AVIONES_FK" seqName="seg_0" containerID="EBE76343-97A1-18D8-2747-86CB4B235E67" refContainerID="F3146438-0AFE-A2C3-99EA-C91E61523C38"/>
-   <object objectType="FKIndexAssociation" objectID="FDF043E7-A99B-4FB1-FA0F-EFA8B5689BA7" name="TBL_ASIE_TBL_TP_ASI_FK" seqName="seg_0" containerID="EBE76343-97A1-18D8-2747-86CB4B235E67" refContainerID="782DD6A3-60B5-5C72-22E6-7B8B2A2F8AF1"/>
-   <object objectType="FKIndexAssociation" objectID="B7153EED-FCE1-09CE-79CF-0174A86CF145" name="TBL_AVIONES_TBL_MAR_FK" seqName="seg_0" containerID="F3146438-0AFE-A2C3-99EA-C91E61523C38" refContainerID="DEEF94DC-1633-431F-AE2C-86D87367BF5E"/>
-   <object objectType="FKIndexAssociation" objectID="08640464-7C67-9051-0EA3-61B3446F3149" name="TBL_AVIONES_TBL_MOD_FK" seqName="seg_0" containerID="F3146438-0AFE-A2C3-99EA-C91E61523C38" refContainerID="062A3C77-F87D-E998-7C7E-190FA637A29A"/>
-   <object objectType="FKIndexAssociation" objectID="3A1000E6-426E-1264-6DE5-0E322B738CE3" name="TBL_FD_TBL_CS_FK" seqName="seg_0" containerID="487733F9-6C0F-BF74-253E-61918CA32861" refContainerID="AEC47756-B716-8D57-0588-FFB3D9F458B6"/>
-   <object objectType="FKIndexAssociation" objectID="347B5FB6-970B-D622-0D33-2367F6E0F2BA" name="TBL_FD_TBL_F_FK" seqName="seg_0" containerID="487733F9-6C0F-BF74-253E-61918CA32861" refContainerID="F5661F76-B66D-6EBE-3B42-0E80D75E94C8"/>
-   <object objectType="FKIndexAssociation" objectID="DB4811A2-01DB-59C5-70FD-53DC19AD85FC" name="TBL_FD_TBL_P_FK" seqName="seg_0" containerID="487733F9-6C0F-BF74-253E-61918CA32861" refContainerID="441AEE12-D28F-AE38-B96B-B822B0DA5381"/>
-   <object objectType="FKIndexAssociation" objectID="92B7D002-C79A-0FF4-E1E6-E86509354C5E" name="TBL_FD_TBL_V_FK" seqName="seg_0" containerID="487733F9-6C0F-BF74-253E-61918CA32861" refContainerID="208C152E-531B-A6D4-5E0E-16D4D9975AC1"/>
-   <object objectType="FKIndexAssociation" objectID="9DAF0201-0A4C-5A6B-DDC1-F0E15DA6941D" name="TBL_F_DETALLE_TBL_ASIE_FK" seqName="seg_0" containerID="487733F9-6C0F-BF74-253E-61918CA32861" refContainerID="EBE76343-97A1-18D8-2747-86CB4B235E67"/>
-   <object objectType="FKIndexAssociation" objectID="03680ACE-FB3D-425E-553D-A1B5555CB897" name="TBL_P_X_R_TBL_P_E_FK" seqName="seg_0" containerID="1D4C434A-A3EF-CD07-CF5F-1C75025237DF" refContainerID="CB3F8F4E-070E-B804-E1B7-7AF07762E041"/>
-   <object objectType="FKIndexAssociation" objectID="F7CEF970-B799-9865-4FDC-875D344DA5D5" name="TBL_P_X_R_TBL_R_FK" seqName="seg_0" containerID="1D4C434A-A3EF-CD07-CF5F-1C75025237DF" refContainerID="40FDB531-B9AE-6328-2522-0FFB927A34D6"/>
-   <object objectType="FKIndexAssociation" objectID="5A668EEC-918A-622E-DEAA-A05B2DA92E54" name="TBL_TRIP_TBL_CARG_FK" seqName="seg_0" containerID="F1B9E6B4-539A-8119-917C-5A5F33CAD0AC" refContainerID="72668F19-FB96-7126-0197-933192E06122"/>
-   <object objectType="FKIndexAssociation" objectID="CA320D4B-1699-C0B3-942C-ACD34CD7FAF6" name="TBL_TRIP_TBL_TRIP_FK" seqName="seg_0" containerID="F1B9E6B4-539A-8119-917C-5A5F33CAD0AC" refContainerID="F1B9E6B4-539A-8119-917C-5A5F33CAD0AC"/>
-   <object objectType="FKIndexAssociation" objectID="D1EB3CED-2AFF-C421-9861-2EA098DDC3CF" name="TBL_TRIP_X_V_TBL_TRIP_FK" seqName="seg_0" containerID="CC1C28B0-3EC7-E652-94ED-71499D49A237" refContainerID="F1B9E6B4-539A-8119-917C-5A5F33CAD0AC"/>
-   <object objectType="FKIndexAssociation" objectID="6EE5E57F-87D8-8EC6-1499-BFBF4A9E4335" name="TBL_TRIP_X_V_TBL_V_FK" seqName="seg_0" containerID="CC1C28B0-3EC7-E652-94ED-71499D49A237" refContainerID="208C152E-531B-A6D4-5E0E-16D4D9975AC1"/>
-   <object objectType="FKIndexAssociation" objectID="E5B4C0A8-7614-D5AD-AEFA-4340354A43D4" name="TBL_V_TBL_AVIONES_FK" seqName="seg_0" containerID="208C152E-531B-A6D4-5E0E-16D4D9975AC1" refContainerID="F3146438-0AFE-A2C3-99EA-C91E61523C38"/>
-   <object objectType="FKIndexAssociation" objectID="926C3C13-FEE7-6D21-5836-3EF3CFF92213" name="TBL_V_TBL_RUTAS_FK" seqName="seg_0" containerID="208C152E-531B-A6D4-5E0E-16D4D9975AC1" refContainerID="40FDB531-B9AE-6328-2522-0FFB927A34D6"/>
+   <object objectType="Table" objectID="40FDB531-B9AE-6328-2522-0FFB927A34D6" name="TBL_RUTAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="441AEE12-D28F-AE38-B96B-B822B0DA5381" name="TBL_PASAJEROS" seqName="seg_0"/>
+   <object objectType="Table" objectID="487733F9-6C0F-BF74-253E-61918CA32861" name="TBL_FACTURA_DETALLE" seqName="seg_0"/>
+   <object objectType="Table" objectID="72668F19-FB96-7126-0197-933192E06122" name="TBL_CARGOS_TRIPULANTES" seqName="seg_0"/>
+   <object objectType="Table" objectID="782DD6A3-60B5-5C72-22E6-7B8B2A2F8AF1" name="TBL_TIPOS_ASIENTOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="AEC47756-B716-8D57-0588-FFB3D9F458B6" name="TBL_CLASES_SOCIALES" seqName="seg_0"/>
+   <object objectType="Table" objectID="CB3F8F4E-070E-B804-E1B7-7AF07762E041" name="TBL_PUNTO_ESCALA" seqName="seg_0"/>
+   <object objectType="Table" objectID="CC1C28B0-3EC7-E652-94ED-71499D49A237" name="TBL_TRIPULACION_X_VUELOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="DEEF94DC-1633-431F-AE2C-86D87367BF5E" name="TBL_MARCAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="EBE76343-97A1-18D8-2747-86CB4B235E67" name="TBL_ASIENTOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="F1B9E6B4-539A-8119-917C-5A5F33CAD0AC" name="TBL_TRIPULACION" seqName="seg_0"/>
+   <object objectType="Table" objectID="F3146438-0AFE-A2C3-99EA-C91E61523C38" name="TBL_AVIONES" seqName="seg_0"/>
+   <object objectType="Table" objectID="F5661F76-B66D-6EBE-3B42-0E80D75E94C8" name="TBL_FACTURAS" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="03680ACE-FB3D-425E-553D-A1B5555CB897" name="TBL_P_X_R_TBL_P_E_FK" containerID="1D4C434A-A3EF-CD07-CF5F-1C75025237DF" refContainerID="CB3F8F4E-070E-B804-E1B7-7AF07762E041" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="08640464-7C67-9051-0EA3-61B3446F3149" name="TBL_AVIONES_TBL_MOD_FK" containerID="F3146438-0AFE-A2C3-99EA-C91E61523C38" refContainerID="062A3C77-F87D-E998-7C7E-190FA637A29A" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="347B5FB6-970B-D622-0D33-2367F6E0F2BA" name="TBL_FD_TBL_F_FK" containerID="487733F9-6C0F-BF74-253E-61918CA32861" refContainerID="F5661F76-B66D-6EBE-3B42-0E80D75E94C8" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3A1000E6-426E-1264-6DE5-0E322B738CE3" name="TBL_FD_TBL_CS_FK" containerID="487733F9-6C0F-BF74-253E-61918CA32861" refContainerID="AEC47756-B716-8D57-0588-FFB3D9F458B6" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5A668EEC-918A-622E-DEAA-A05B2DA92E54" name="TBL_TRIP_TBL_CARG_FK" containerID="F1B9E6B4-539A-8119-917C-5A5F33CAD0AC" refContainerID="72668F19-FB96-7126-0197-933192E06122" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6EE5E57F-87D8-8EC6-1499-BFBF4A9E4335" name="TBL_TRIP_X_V_TBL_V_FK" containerID="CC1C28B0-3EC7-E652-94ED-71499D49A237" refContainerID="208C152E-531B-A6D4-5E0E-16D4D9975AC1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="926C3C13-FEE7-6D21-5836-3EF3CFF92213" name="TBL_V_TBL_RUTAS_FK" containerID="208C152E-531B-A6D4-5E0E-16D4D9975AC1" refContainerID="40FDB531-B9AE-6328-2522-0FFB927A34D6" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="92B7D002-C79A-0FF4-E1E6-E86509354C5E" name="TBL_FD_TBL_V_FK" containerID="487733F9-6C0F-BF74-253E-61918CA32861" refContainerID="208C152E-531B-A6D4-5E0E-16D4D9975AC1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9DAF0201-0A4C-5A6B-DDC1-F0E15DA6941D" name="TBL_F_DETALLE_TBL_ASIE_FK" containerID="487733F9-6C0F-BF74-253E-61918CA32861" refContainerID="EBE76343-97A1-18D8-2747-86CB4B235E67" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A8F1122F-54E3-A2A7-CBC4-4F55177F2DB9" name="TBL_ASIE_TBL_AVIONES_FK" containerID="EBE76343-97A1-18D8-2747-86CB4B235E67" refContainerID="F3146438-0AFE-A2C3-99EA-C91E61523C38" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B7153EED-FCE1-09CE-79CF-0174A86CF145" name="TBL_AVIONES_TBL_MAR_FK" containerID="F3146438-0AFE-A2C3-99EA-C91E61523C38" refContainerID="DEEF94DC-1633-431F-AE2C-86D87367BF5E" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CA320D4B-1699-C0B3-942C-ACD34CD7FAF6" name="TBL_TRIP_TBL_TRIP_FK" containerID="F1B9E6B4-539A-8119-917C-5A5F33CAD0AC" refContainerID="F1B9E6B4-539A-8119-917C-5A5F33CAD0AC" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D1EB3CED-2AFF-C421-9861-2EA098DDC3CF" name="TBL_TRIP_X_V_TBL_TRIP_FK" containerID="CC1C28B0-3EC7-E652-94ED-71499D49A237" refContainerID="F1B9E6B4-539A-8119-917C-5A5F33CAD0AC" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DB4811A2-01DB-59C5-70FD-53DC19AD85FC" name="TBL_FD_TBL_P_FK" containerID="487733F9-6C0F-BF74-253E-61918CA32861" refContainerID="441AEE12-D28F-AE38-B96B-B822B0DA5381" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E5B4C0A8-7614-D5AD-AEFA-4340354A43D4" name="TBL_V_TBL_AVIONES_FK" containerID="208C152E-531B-A6D4-5E0E-16D4D9975AC1" refContainerID="F3146438-0AFE-A2C3-99EA-C91E61523C38" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F7CEF970-B799-9865-4FDC-875D344DA5D5" name="TBL_P_X_R_TBL_R_FK" containerID="1D4C434A-A3EF-CD07-CF5F-1C75025237DF" refContainerID="40FDB531-B9AE-6328-2522-0FFB927A34D6" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FDF043E7-A99B-4FB1-FA0F-EFA8B5689BA7" name="TBL_ASIE_TBL_TP_ASI_FK" containerID="EBE76343-97A1-18D8-2747-86CB4B235E67" refContainerID="782DD6A3-60B5-5C72-22E6-7B8B2A2F8AF1" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

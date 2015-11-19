@@ -11,14 +11,5 @@
    <object objectType="Table" objectID="F1B9E6B4-539A-8119-917C-5A5F33CAD0AC" name="TBL_TRIPULACION" seqName="seg_0"/>
    <object objectType="Table" objectID="CC1C28B0-3EC7-E652-94ED-71499D49A237" name="TBL_TRIPULACION_X_VUELOS" seqName="seg_0"/>
    <object objectType="Table" objectID="208C152E-531B-A6D4-5E0E-16D4D9975AC1" name="TBL_VUELOS" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="A8F1122F-54E3-A2A7-CBC4-4F55177F2DB9" name="TBL_ASIE_TBL_AVIONES_FK" seqName="seg_0" containerID="EBE76343-97A1-18D8-2747-86CB4B235E67" refContainerID="F3146438-0AFE-A2C3-99EA-C91E61523C38"/>
-   <object objectType="FKIndexAssociation" objectID="347B5FB6-970B-D622-0D33-2367F6E0F2BA" name="TBL_FD_TBL_F_FK" seqName="seg_0" containerID="487733F9-6C0F-BF74-253E-61918CA32861" refContainerID="F5661F76-B66D-6EBE-3B42-0E80D75E94C8"/>
-   <object objectType="FKIndexAssociation" objectID="DB4811A2-01DB-59C5-70FD-53DC19AD85FC" name="TBL_FD_TBL_P_FK" seqName="seg_0" containerID="487733F9-6C0F-BF74-253E-61918CA32861" refContainerID="441AEE12-D28F-AE38-B96B-B822B0DA5381"/>
-   <object objectType="FKIndexAssociation" objectID="92B7D002-C79A-0FF4-E1E6-E86509354C5E" name="TBL_FD_TBL_V_FK" seqName="seg_0" containerID="487733F9-6C0F-BF74-253E-61918CA32861" refContainerID="208C152E-531B-A6D4-5E0E-16D4D9975AC1"/>
-   <object objectType="FKIndexAssociation" objectID="9DAF0201-0A4C-5A6B-DDC1-F0E15DA6941D" name="TBL_F_DETALLE_TBL_ASIE_FK" seqName="seg_0" containerID="487733F9-6C0F-BF74-253E-61918CA32861" refContainerID="EBE76343-97A1-18D8-2747-86CB4B235E67"/>
    <object objectType="FKIndexAssociation" objectID="CA320D4B-1699-C0B3-942C-ACD34CD7FAF6" name="TBL_TRIP_TBL_TRIP_FK" seqName="seg_0" containerID="F1B9E6B4-539A-8119-917C-5A5F33CAD0AC" refContainerID="F1B9E6B4-539A-8119-917C-5A5F33CAD0AC"/>
-   <object objectType="FKIndexAssociation" objectID="D1EB3CED-2AFF-C421-9861-2EA098DDC3CF" name="TBL_TRIP_X_V_TBL_TRIP_FK" seqName="seg_0" containerID="CC1C28B0-3EC7-E652-94ED-71499D49A237" refContainerID="F1B9E6B4-539A-8119-917C-5A5F33CAD0AC"/>
-   <object objectType="FKIndexAssociation" objectID="6EE5E57F-87D8-8EC6-1499-BFBF4A9E4335" name="TBL_TRIP_X_V_TBL_V_FK" seqName="seg_0" containerID="CC1C28B0-3EC7-E652-94ED-71499D49A237" refContainerID="208C152E-531B-A6D4-5E0E-16D4D9975AC1"/>
-   <object objectType="FKIndexAssociation" objectID="E5B4C0A8-7614-D5AD-AEFA-4340354A43D4" name="TBL_V_TBL_AVIONES_FK" seqName="seg_0" containerID="208C152E-531B-A6D4-5E0E-16D4D9975AC1" refContainerID="F3146438-0AFE-A2C3-99EA-C91E61523C38"/>
-   <object objectType="FKIndexAssociation" objectID="926C3C13-FEE7-6D21-5836-3EF3CFF92213" name="TBL_V_TBL_RUTAS_FK" seqName="seg_0" containerID="208C152E-531B-A6D4-5E0E-16D4D9975AC1" refContainerID="40FDB531-B9AE-6328-2522-0FFB927A34D6"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>
