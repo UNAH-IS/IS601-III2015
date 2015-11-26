@@ -31,7 +31,10 @@
 <createdTime>2015-11-18 04:34:43 UTC</createdTime>
 <ownerDesignName>dwh_modelo_relacional_aerolinea</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ALIAS_RUTA" id="5DCA01F4-48E1-CCFC-3C5C-2F46BBF27499">
