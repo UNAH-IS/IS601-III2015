@@ -1,0 +1,33 @@
+SELECT * 
+FROM DUAL@DBLINK_LINUX;
+
+
+--Pasos para crear un DBLINK Homogeneo (Oracle - Oracle)
+--Tener 2 bases de datos en linea (Pueden estar ubicadas en computadoras diferentes)
+--Debe existir una conexion de red entre ambas bases de datos.
+--Configurar el archivo tnsnames.ora que esta dentro de la carpeta:
+  --ORACLE_HOME\network\ADMIN\tnsnames.ora
+--Agregar el siguiente bloque:
+DEFINICION_TNS =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = DIRECCION_IP)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = XE)
+    )
+  )
+
+--Crear el DBLINK:
+CREATE [PUBLIC] DATABASE LINK NOMBRE_DBLINK
+CONNECT TO USUARIO IDENTIFIED BY "PASSWORD" 
+USING 'DEFINICION_TNS';
+
+--PROBAR DBLINK, PUEDE CONSULTAR UNA TABLA REMOTA
+SELECT * FROM DUAL@NOMBRE_DBLINK;
+
+--CONSULTAR UNA TABLA DE OTRO ESQUEMA:
+SELECT * FROM ESQUEMA.NOMBRE_TABLA@NOMBRE_DBLINK;
+
+--EJECUTAR UN PROCEDIMIENTO QUE ESTA DENTRO DE UN PAQUETE DE OTRO ESQUEMA:
+EXECUTE ESQUEMA.PAQUETE.NOMBRE_PROCEDIMIENTO@NOMBRE_DBLINK(PARAMETROS);
+
